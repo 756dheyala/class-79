@@ -1,46 +1,52 @@
-<html> 
-<head> 
-<title>
-First Project</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>c79</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="mane.js"></script>
 </head>
 <body>
-<h1>Open console</h1>
-<script>
-console.log('Hi im console screen')
-var f='Dheeren';
-var l='Yalamanchi';
-console.log(f);
-console.log(l);
-var x=f.concat(l);
-console.log(x)
-var len=x.length;
-console.log(len);
-var r='I am a coder'
-console.log(r);
-var y=r.replace('coder','student')
-console.log(y);
-var c='DHEEREN';
-var lower=c.toLowerCase();
-console.log(lower);
-var s='dheeren';
-var upper=s.toUpperCase();
-console.log(upper);
-var squareroot=Math.sqrt(36);
-console.log(squareroot)
-var m=Math.max(12,13);
-console.log(m);
-var n=Math.min(12,13);
-console.log(n);
-var power=Math.pow(4,3);
-console.log(power);
+<center>
+    <h3 style="margin-top: 20px; margin-bottom: 20px; ">
+        list of the students in my class
+    </h3>
+    <div>
+        <span>1</span>
+        <input type="text" placeholder="Name of the students" id="name_of_the_student_1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Name of the students" id="name_of_the_student_2">
+<br>
+
+
+<span>3</span>
+<input type="text" placeholder="Name of the students" id="name_of_the_student_3">
+<br>
+
+
+<span>4</span>
+<input type="text" placeholder="Name of the students" id="name_of_the_student_4">
+<br>
+
+<button onclick="submit()" id="submit_button">
+    submit
+</button>
+
+
+<div id="display_name" style="font-weight: bold;">
+
+</div>
+
+
+<button onclick="sorting()" id="sort_button">
+    Sort
+</button>
 
 
 
 
 
 
-
-
-
-
-</script>
+</body>
+</html>
